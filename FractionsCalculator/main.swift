@@ -27,7 +27,7 @@ while !shouldQuit {
     let expressions = input.components(separatedBy: .whitespacesAndNewlines).filter({ !$0.isEmpty })
     
     if expressions.count < 2 {
-        console.error("Expression should be contained more than 1 fraction")
+        console.error("Expression should be contained more than 1 operand")
         continue
     }
     
